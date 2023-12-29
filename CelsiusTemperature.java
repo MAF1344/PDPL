@@ -1,7 +1,8 @@
 // class implementasi
-public class CelsiusTemperature extends Celsius{
+public class CelsiusTemperature extends Celsius {
     private double temperature;
 
+    // Constructor
     public CelsiusTemperature(double temperature) {
         this.temperature = temperature;
     }
@@ -13,7 +14,7 @@ public class CelsiusTemperature extends Celsius{
 
     public double convertToFahrenheit() {
         // Rumus konversi Celsius ke Fahrenheit: (Celsius * 9/5) + 32
-        return (temperature * 9/5) + 32;
+        return (temperature * 9 / 5) + 32;
     }
 
     public double convertToKelvin() {

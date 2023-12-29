@@ -5,21 +5,21 @@
  */
 
 public class TemperatureBuilder {
-    public TemperatureType buildCelsiusTemperature(double temperature) {
+    public TemperatureType buildCelsiusTemperature() {
         TemperatureType temperatures = new TemperatureType();
-        temperatures.addItem(new CelsiusTemperature(temperature));
+        temperatures.addItem(new CelsiusTemperature());
         return temperatures;
     }
 
-    public TemperatureType buildFahrenheitTemperature(double temperature) {
+    public TemperatureType buildFahrenheitTemperature() {
         TemperatureType temperatures = new TemperatureType();
-        temperatures.addItem(new FahrenheitTemperature(temperature));
+        temperatures.addItem(new FahrenheitTemperature());
         return temperatures;
     }
 
-    public TemperatureType buildKelvinTemperature(double temperature) {
+    public TemperatureType buildKelvinTemperature() {
         TemperatureType temperatures = new TemperatureType();
-        temperatures.addItem(new KelvinTemperature(temperature));
+        temperatures.addItem(new KelvinTemperature());
         return temperatures;
     }
 }

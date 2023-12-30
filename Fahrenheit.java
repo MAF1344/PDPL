@@ -1,8 +1,13 @@
-// class abstrak
+// class abstrak Fahrenheit.
 public abstract class Fahrenheit implements Temperature {
+
+    // Metode abstrak untuk mendapatkan suhu dalam Fahrenheit.
     @Override
     public abstract double getTemperature();
-    public abstract double convertToCelsius();
-    public abstract double convertToKelvin();
 
+    // Metode abstrak untuk mengonversi suhu dari Fahrenheit ke Celsius.
+    public abstract double convertToCelsius();
+
+    // Metode abstrak untuk mengonversi suhu dari Fahrenheit ke Kelvin.
+    public abstract double convertToKelvin();
 }

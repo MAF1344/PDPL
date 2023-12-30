@@ -1,3 +1,5 @@
+
+// Import untuk mengakses fungsionalitas ArrayList dan List dari paket java.util.
 import java.util.ArrayList;
 import java.util.List;
 
@@ -6,6 +8,7 @@ import java.util.List;
  * Kelas ini menyediakan metode untuk menambahkan suhu ke koleksi,
  * mengambil daftar suhu, dan menampilkan suhu ke konsol.
  */
+
 public class TemperatureType {
     private List<Temperature> items = new ArrayList<>();
 

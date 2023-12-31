@@ -8,6 +8,7 @@ public class TemperatureConversionDemo {
         // Membuat objek TemperatureBuilder.
         TemperatureBuilder temperatureBuilder = new TemperatureBuilder();
 
+        // buat variabel exit
         boolean exit = false;
 
         while (!exit) {
